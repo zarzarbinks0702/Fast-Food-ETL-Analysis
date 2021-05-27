@@ -1,8 +1,10 @@
+Drop table fastfood, population;
+
 
 CREATE TABLE fastfood (
 	FFID Text PRIMARY KEY,
-	Date Added date,
-	Business Name Text,
+	DateAdded Text,
+	BusinessName Text,
 	Address Text,
 	city text,
 	State text,
@@ -20,7 +22,7 @@ CREATE TABLE population (
 	geo_id Text
 );
 
-Select * from Fastfood
+Select * from fastfood
 
-Select * from Population
+Select * from population
 
