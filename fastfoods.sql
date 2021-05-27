@@ -1,6 +1,7 @@
+--ensure the tables don't already exist
 Drop table fastfood, population;
 
-
+--create the fast food table
 CREATE TABLE fastfood (
 	FFID Text PRIMARY KEY,
 	DateAdded Text,
@@ -12,6 +13,7 @@ CREATE TABLE fastfood (
 	Category text
 );
 
+--create the population data table
 CREATE TABLE population (
 	id INT PRIMARY KEY,
 	population INT,
@@ -22,7 +24,8 @@ CREATE TABLE population (
 	geo_id Text
 );
 
+--show fast food table
 Select * from fastfood
 
+--show population data table
 Select * from population
-
