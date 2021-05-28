@@ -9,19 +9,19 @@ CREATE TABLE fastfood (
 	Address Text,
 	city text,
 	State text,
-	Zip INT,
+	Zip text,
 	Category text
 );
 
 --create the population data table
 CREATE TABLE population (
-	id INT PRIMARY KEY,
+	id SERIAL PRIMARY KEY,
 	population INT,
-	mininum_age INT,
+	minimum_age INT,
 	maximum_age INT,
 	gender Text,
-	Zipcode INT,
-	geo_id Text
+	Zipcode text,
+	geo_id text
 );
 
 --show fast food table
