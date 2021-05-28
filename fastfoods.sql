@@ -1,5 +1,5 @@
 --ensure the tables don't already exist
-Drop table fastfood, population;
+Drop table fastfood, population, pop_by_zip;
 
 --create the fast food table
 CREATE TABLE fastfood (
