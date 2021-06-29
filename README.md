@@ -1,4 +1,4 @@
-# etl-project
+# Fast-Food-ETL-Analysis
 A project to work through the steps of the ETL process using Jupyter Notebook, Pandas, Python, SQLAlchemy, and PostgreSQL. 06/01/2021.
 Collaborators: Richard Butler, Vickie Hughes, Kaylie Sheehan, Carlos Villanueva.
 
